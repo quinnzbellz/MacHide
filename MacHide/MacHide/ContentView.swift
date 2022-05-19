@@ -11,7 +11,7 @@ import Foundation
 @discardableResult
 func shell(_ args: String...) -> Int32 {
     let task = Process()
-    task.launchPath = "/usr/bin/env"
+    task.launchPath = "/bin/bash"
     task.arguments = args
     task.launch()
     task.waitUntilExit()
@@ -21,7 +21,9 @@ func shell(_ args: String...) -> Int32 {
 struct ContentView: View {
     var body: some View {
         Button(action: {
-            shell("ls -a")
+            shell("cd ~/Desktop ")
+            shell("for file in *; do mv ${file} `echo $file | tr ' ' '_'` ; done")
+            shell("for file in *;  mv $file ~/Desktop/.${file%%}")
         }) {
         Text("Hide Icons")
             .padding()

@@ -14,6 +14,7 @@
 		C591A9892836F21400D217DD /* MacHideTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C591A9882836F21400D217DD /* MacHideTests.swift */; };
 		C591A9932836F21400D217DD /* MacHideUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C591A9922836F21400D217DD /* MacHideUITests.swift */; };
 		C591A9952836F21400D217DD /* MacHideUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C591A9942836F21400D217DD /* MacHideUITestsLaunchTests.swift */; };
+		C591A9A22836F81100D217DD /* hide.sh in Resources */ = {isa = PBXBuildFile; fileRef = C591A9A12836F81100D217DD /* hide.sh */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +46,7 @@
 		C591A98E2836F21400D217DD /* MacHideUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MacHideUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C591A9922836F21400D217DD /* MacHideUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MacHideUITests.swift; sourceTree = "<group>"; };
 		C591A9942836F21400D217DD /* MacHideUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MacHideUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		C591A9A12836F81100D217DD /* hide.sh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; name = hide.sh; path = ../../hide.sh; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +99,7 @@
 			children = (
 				C591A9762836F21000D217DD /* MacHideApp.swift */,
 				C591A9782836F21000D217DD /* ContentView.swift */,
+				C591A9A12836F81100D217DD /* hide.sh */,
 				C591A97A2836F21400D217DD /* Assets.xcassets */,
 				C591A97F2836F21400D217DD /* MacHide.entitlements */,
 				C591A97C2836F21400D217DD /* Preview Content */,
@@ -233,6 +236,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C591A9A22836F81100D217DD /* hide.sh in Resources */,
 				C591A97E2836F21400D217DD /* Preview Assets.xcassets in Resources */,
 				C591A97B2836F21400D217DD /* Assets.xcassets in Resources */,
 			);
